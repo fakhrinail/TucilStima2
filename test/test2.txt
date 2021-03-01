@@ -1,0 +1,5 @@
+bentar.
+lagi, bentar.
+ujian, lagi.
+tengah, ujian.
+semester, tengah, ujian.
