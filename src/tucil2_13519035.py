@@ -63,12 +63,12 @@ def printSolution(solution):
             courseIndex += 1
         semester += 1
     
-# printStartScreen()
+printStartScreen()
 filename = input('Masukkan nama file yang ingin diproses (tanpa .txt) : ')
 listOfCoursesAndPrereqs = []
 
 # setup 
-with open('testfiles/' + filename + '.txt') as file:
+with open('../test/' + filename + '.txt') as file:
     removeChars = ',.'
     for line in file:
         for char in removeChars:
